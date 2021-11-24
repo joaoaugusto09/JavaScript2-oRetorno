@@ -1,12 +1,7 @@
-function azul() {
-    document.getElementById('corpo').style.backgroundColor = "blue"
-}
-function vermelho() {
-    document.getElementById('corpo').style.backgroundColor = "red"
-}
-function verde() {
-    document.getElementById('corpo').style.backgroundColor = "green"
-}
-function amarelo() {
-    document.getElementById('corpo').style.backgroundColor = "yellow"
+var nome = document.getElementById('nome')
+var idade = document.getElementById('idade')
+var sexo = document.getElementById('sexo')
+
+function submita(){
+    alert('se liga no que voce submitou: '+(nome.value)+' '+(idade.value)+' '+(sexo.value))
 }
